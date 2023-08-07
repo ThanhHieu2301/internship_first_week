@@ -1,0 +1,144 @@
+$color:orange;
+$chu:black;
+body{background-color: black;}
+.menu{ 
+    width: 100%;
+    margin: 0% auto;
+    background-color: $color;
+    ul{
+        padding: 0%;
+        margin: 0%;
+        list-style: none;
+        li{ 
+            float: left;
+            padding: 0px 80px;
+                a{
+                    font-size: 20px;
+                    font-weight: bold;
+                    color:$chu;
+                    text-transform: uppercase;
+                    line-height: 30px;
+                    text-decoration: none;
+                }
+        }
+    }
+    
+}
+.breadcrumb{    //đường dẫn show trong trang
+    width: 10%;
+    top: 20%;
+    margin: 10px;
+        li{
+            color: $chu;
+        }
+    
+}
+.slide{
+    text-align: center;
+    img{
+        width: 1500px;
+        height: 500px;
+    }
+}
+.sanpham{   
+    width: 30%;
+    ul{
+        display: flex;
+        li{    
+        flex-basis: 25%;
+        padding: 30px;
+        margin: 10px;
+        list-style: none;
+        color: white;   
+        h4{
+        text-align: center;
+        }
+            img{
+            max-width: 300px;
+                height: 400px;
+                }
+            }
+    }
+}
+#tieude{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    
+}
+.top{   //thanh lên đỉnh trang
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+.login{     //mục login
+    background-color: $color;
+    color: black;
+    width: 15%;
+    position:absolute;
+    right: 2%;
+    top: 95%;
+    padding: 10px 5px;
+    border-style:solid;
+    button{
+        margin-top: 10px;
+        
+    }
+}
+.note{      
+    background-color: $color;
+    width: 15%;
+    position:absolute;
+    right: 2%;
+    top: 120%;
+    padding: 10px 10px;
+    border-style:solid;
+    img{
+        height: 100px;
+        width: 260px;
+    }
+}
+#quangcao{
+    a{
+        top: 20%;
+        bottom: 40px;
+        left: 10%;
+        img{
+        width: 500px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+}
+.phantrang{     //mục phân trang
+    padding: 30px;
+    margin: 10px;
+}
+footer{     
+    width: 100%;
+    background-color: $color;
+    text-align: center;
+    color: black;
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+    
